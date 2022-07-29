@@ -1,7 +1,6 @@
 package net.benedek.viking.item;
 
 import net.benedek.viking.Viking;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,7 +14,7 @@ public class ModItems {
     //item list
 
     public static final RegistryObject<Item> FIBER = ITEMS.register("fiber",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CRAFTING_MATERIAL_TAB)));
 
 
 
