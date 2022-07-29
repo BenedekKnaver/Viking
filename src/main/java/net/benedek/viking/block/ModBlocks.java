@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,8 +24,8 @@ public class ModBlocks {
     //Block list
 
     public static final RegistryObject<Block> WORKBENCH = registerBlock("workbench",
-            () -> new Block(BlockBehaviour.Properties.of(Material.LEAVES)
-                    .strength(2f)), ModCreativeModeTab.WORKSHOP_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2f).sound(SoundType.WOOD).dynamicShape()), ModCreativeModeTab.WORKSHOP_TAB);
 
 
 
