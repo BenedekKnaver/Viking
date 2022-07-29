@@ -1,5 +1,6 @@
 package net.benedek.viking.item;
 
+import net.benedek.viking.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
@@ -12,6 +13,16 @@ public class ModCreativeModeTab {
             //item list
 
             return new ItemStack(ModItems.FIBER.get());
+
+        }
+    };
+    public static final CreativeModeTab WORKSHOP_TAB = new CreativeModeTab("workshoptab") {
+        @Override
+        public ItemStack makeIcon() {
+
+            //item list
+
+            return new ItemStack(ModBlocks.WORKBENCH.get());
 
         }
     };

@@ -1,6 +1,10 @@
 {
   "itemGroup.craftingmaterialtab":"Crafting Materials",
+  "itemGroup.workshoptab":"Workshop",
 
 
-  "item.viking.fiber": "Fiber"
+  "item.viking.fiber": "Fiber",
+
+
+  "block.viking.workbench": "Workbench"
 }
