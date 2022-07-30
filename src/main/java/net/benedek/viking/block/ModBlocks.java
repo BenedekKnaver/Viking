@@ -1,6 +1,7 @@
 package net.benedek.viking.block;
 
 import net.benedek.viking.Viking;
+import net.benedek.viking.block.custom.Workbench;
 import net.benedek.viking.item.ModCreativeModeTab;
 import net.benedek.viking.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -24,8 +25,8 @@ public class ModBlocks {
     //Block list
 
     public static final RegistryObject<Block> WORKBENCH = registerBlock("workbench",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2f).sound(SoundType.WOOD).dynamicShape()), ModCreativeModeTab.WORKSHOP_TAB);
+            () -> new Workbench(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(2f).sound(SoundType.WOOD).dynamicShape().noOcclusion()), ModCreativeModeTab.WORKSHOP_TAB);
 
 
 
