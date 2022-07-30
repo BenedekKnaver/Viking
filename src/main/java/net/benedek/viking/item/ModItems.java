@@ -15,7 +15,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> FIBER = ITEMS.register("fiber",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CRAFTING_MATERIAL_TAB)));
-
+    public static final RegistryObject<Item> FIBER_STRING = ITEMS.register("fiber_string",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CRAFTING_MATERIAL_TAB)));
 
 
     public static void register(IEventBus eventBus){

@@ -10,20 +10,19 @@ public class ModCreativeModeTab {
         @Override
         public ItemStack makeIcon() {
 
-            //item list
-
             return new ItemStack(ModItems.FIBER.get());
 
+
         }
+
     };
+
     public static final CreativeModeTab WORKSHOP_TAB = new CreativeModeTab("workshoptab") {
         @Override
         public ItemStack makeIcon() {
 
-            //item list
 
             return new ItemStack(ModBlocks.WORKBENCH.get());
-
         }
     };
 }

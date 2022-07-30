@@ -2,7 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "0": "viking:item/fiber",
-    "particle": "viking.item/fiber"
+    "particle": "viking:item/fiber"
   },
   "elements": [
     {
@@ -198,6 +198,7 @@
       }
     }
   ],
+  "gui_light": "front",
   "display": {
     "thirdperson_righthand": {
       "translation": [0, 4.75, 0],
